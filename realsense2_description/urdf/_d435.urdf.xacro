@@ -19,9 +19,9 @@ aluminum peripherial evaluation case.
 
     <!-- The following values are approximate, and the camera node
      publishing TF values with actual calibrated camera extrinsic values -->
-    <xacro:property name="d435_cam_depth_to_infra1_offset" value="0.0"/>
-    <xacro:property name="d435_cam_depth_to_infra2_offset" value="-0.050"/>
-    <xacro:property name="d435_cam_depth_to_color_offset" value="0.015"/>
+    <xacro:property name="d435_cam_depth_to_infra1_offset" value="0.075"/>
+    <xacro:property name="d435_cam_depth_to_infra2_offset" value="-0.075"/>
+    <xacro:property name="d435_cam_depth_to_color_offset" value="0.0"/>
 
     <!-- The following values model the aluminum peripherial case for the
   	D435 camera, with the camera joint represented by the actual
